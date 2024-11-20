@@ -54,13 +54,9 @@ ____
 Tomsk State University</br>
 Higher IT School / Software Engineering (2019-2023)
 
-____
-
 **Master's degree**</br>
 Tomsk State University</br>
 Faculty of Philosophy / UI/UX-design (2023-present)
-
-____
 
 **Courses**
 * Stepik: [Art of soft skills](https://stepik.org/course/95702/info) (complete)
