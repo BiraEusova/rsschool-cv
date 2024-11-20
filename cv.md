@@ -7,10 +7,10 @@
 ____
 
 ### Contact Information
-**Phone:**  +7-961-887-00-01</br>
-**Email:** ira.breusova@gmail.com</br>
-**Telegram:** @BiraEusova</br>
-**GitHub:** [BiraEusova](https://github.com/BiraEusova)
+* **Phone:**  +7-961-887-00-01
+* **Email:** ira.breusova@gmail.com
+* **Telegram:** @BiraEusova
+* **GitHub:** [BiraEusova](https://github.com/BiraEusova)
 
 ____
 
@@ -50,12 +50,16 @@ console.log(factorial(number));
 ____
 
 ### Education
-**Bachelor's degree**</br>
-Tomsk State University</br>
+**Bachelor's degree**
+
+Tomsk State University
+
 Higher IT School / Software Engineering (2019-2023)
 
-**Master's degree**</br>
-Tomsk State University</br>
+**Master's degree**
+
+Tomsk State University
+
 Faculty of Philosophy / UI/UX-design (2023-present)
 
 **Courses**
