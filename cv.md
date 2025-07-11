@@ -49,3 +49,11 @@ I am friendly and sociable, I work well in a team, I like to finish what I start
 - The project has been completely transferred to Vite
 - Most of the code base has been refactored
 - In the process, the interface is being developed according to the layout and the project is being transferred from JS to TS
+
+## SKILLS
+* Main technologies: HTML, CSS (Sass, BEM)
+* Programm languages: JS, TS (Basics)
+* Frameworks, builders and other instruments: React, Redux, Vite, AntD
+* VCS: Git (GitHub, GitLab, BitBucket)
+* Soft: Confluence, Jira, RedMine, WebStorm, VS Code
+* Other: Adobe Illustrator, Photoshop, After Effects, Figma, UI/UX design
