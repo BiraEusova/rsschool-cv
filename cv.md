@@ -5,12 +5,12 @@
 - **Phone:** +7-961-887-00-01
 - **Email:**  ira.breusova@gmail.com
 - **Telegram:** [@BiraEusova](https://t.me/BiraEusova)
-- **Discord:** [@bira_eusova](https://discordapp.com/users/bira_eusova)
+- **Discord:** @bira_eusova
 - **GitHub:** [BiraEusova](https://github.com/BiraEusova)
 
 ## ABOUT ME
 I am friendly and sociable, I work well in a team, I like to finish what I started and improve my skills. I like to solve creative problems and participate in projects that require both technical and artistic skills.
->! I also really like alpine skiing :ski: and tigers :tiger: :)
+> I also really like alpine skiing :ski: and tigers :tiger: :)
 
 ## SKILLS
 * Main technologies: HTML, CSS (Sass, BEM)
@@ -42,7 +42,7 @@ console.log(factorial(number));
 
 ## WORK EXPERIENCE
 
-### SHIFT CFT, 2024-resent
+### CFT SHIFT Lab, 2024-present
 
 **Project:** System for creating and posting static content (banners and stories) for mobile applications of partner banks.
 
@@ -106,4 +106,5 @@ Faculty of Philosophy: UX/UI design. Tomsk State University, 2023-2025
 
 ## LANGUAGES
 **Russian:** Native speaker
+
 **English:** Intermediate / Upper-Intermediate
