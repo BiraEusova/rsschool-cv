@@ -20,6 +20,26 @@ I am friendly and sociable, I work well in a team, I like to finish what I start
 * Soft: Confluence, Jira, RedMine, WebStorm, VS Code
 * Other: Adobe Illustrator, Photoshop, After Effects, Figma, UI/UX design
 
+## CODE EXAMPLE
+Function for calculating factorial
+
+```
+function factorial(n) {
+    if (n < 0) 
+        return "Factorial is not defined for negative numbers";
+    if (n === 0 || n === 1) 
+        return 1;
+    let result = 1;
+    for (let i = 2; i <= n; i++) {
+        result *= i;
+    }
+    return result;
+}
+
+const number = 5;
+console.log(factorial(number));
+```
+
 ## WORK EXPERIENCE
 
 ### SHIFT CFT, 2024-resent
@@ -44,9 +64,8 @@ I am friendly and sociable, I work well in a team, I like to finish what I start
 
 ### Tomsk Polytechnic University, 2023-2024
 
-> Link unavailable
-
 **Project:** Corporate electronic document management system.
+> Link unavailable
 
 **Technology stack:** TS, React, Redux, Vite, AntD
 
@@ -61,3 +80,30 @@ I am friendly and sociable, I work well in a team, I like to finish what I start
 - Developed a design for the main windows to implement the basic functionality of interacting with documents
 - Selected a stack for implementation, created an interface template with multi-window support, similar to Windows, and several main windows according to the layout.
 - Set up a CI/CD process using Jenkins
+
+### Educational projects
+
+- [Online cinema](https://github.com/BiraEusova/cinema-shift-2024)
+- [OTP Authorization](https://github.com/BiraEusova/shift-lab)
+- [CV](https://github.com/BiraEusova/rsschool-cv)
+
+## EDUCATION
+
+### Bachelor's degree
+Higher IT school: Software engineering. Tomsk State University, 2019-2023
+
+### Master's degree
+Faculty of Philosophy: UX/UI design. Tomsk State University, 2023-2025
+
+### Additional courses
+
+- [Course in Frontend. CFT SHIFT Intensive, 2024](drive.google.com/file/d/1tizbRa0cTEO7Om4QH4u-MC9zQ0Gnq62K/view?usp=sharing)
+- Mentor in IT: how to give feedback, move and resolve conflicts. Yandex Practicum, 2024
+- [Project Management. From Theory to Practice. Stepik, 2024](https://stepik.org/cert/2689785)
+- [The Art of Soft Skills: Flexible Skills for Life and Study. Stepik, 2024](https://stepik.org/cert/2330779)
+- Professional retraining in the program "Graphic design". Tomsk State University, 2022-2023
+- JavaScript/Front-end Pre-School. Rolling Stones School, in progress
+
+## LANGUAGES
+**Russian:** Native speaker
+**English:** Intermediate / Upper-Intermediate
