@@ -159,6 +159,29 @@ section h3 {
     width: fit-content;
 }
 
-footer {
+.footer {
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 88px;
+    align-items: center;
+    background-color: rgba(62, 59, 56, 0.3);
+    list-style-type: none;
+}
 
+.footer img{
+    height: 32px;
+    width: auto;
+}
+
+.footer__github {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 16px;
+}
+
+.footer__github a {
+    color: black;
 }
