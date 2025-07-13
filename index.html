@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CV Irina Breusova</title>
+    <link href="style.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+<div class="sidebar">
+    <img class="avatar" src="avatar.jpg" alt="Photo by the author of CV">
+    <div class="person-description">
+        <h1 class="person-description__name">Irina Breusova</h1>
+        <p class="person-description__profession">Frontend developer</p>
+    </div>
+    <div class="contacts">
+        <h2>Contacts</h2>
+        <ul class="contacts__items-list">
+            <li class="contacts__item">
+                <img class="contacts__icon" src="phone_icon.svg" alt="">
+                <a class="contacts__value" href="tel:+79618878701">+7 961 887 87 01</a>
+            </li>
+            <li class="contacts__item">
+                <img class="contacts__icon" src="email_icon.svg" alt="">
+                <a class="contacts__value" href="mailto:ira.breusova@gmail.com">ira.breusova@gmail.com</a>
+            </li>
+            <li class="contacts__item">
+                <img class="contacts__icon" src="tg_icon.svg" alt="">
+                <a class="contacts__value" href="https://t.me/BiraEusova">@BiraEusova</a>
+            </li>
+            <li class="contacts__item">
+                <img class="contacts__icon" src="vk_icon.svg" alt="">
+                <a class="contacts__value" href="https://vk.com/biraeusova">@biraeusova</a>
+            </li>
+        </ul>
+    </div>
+
+</div>
+<div class="main-container">
+    <header>
+        <nav>
+            <ul class="menu">
+                <li class="menu__item"><a href="#about-me">About me</a></li>
+                <li class="menu__item"><a href="#skills">Skills</a></li>
+                <li class="menu__item"><a href="#code">Code</a></li>
+                <li class="menu__item"><a href="#experience">Experience</a></li>
+                <li class="menu__item"><a href="#education">Education</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="about-me" class="about-me">
+            <h2>About me</h2>
+            <p class="about-me__text">
+                I am friendly and sociable, I work well in a team,
+                I like to finish what I started and improve my skills.<br>
+                I like to solve creative problems and participate in projects that require both technical
+                and artistic skills.<br>
+                I also really like alpine skiing and tigers :)
+            </p>
+        </section>
+        <section id="skills" class="skills">
+            <h2>Skills</h2>
+            <ul>
+                <li>Main technologies: HTML, CSS (Sass, BEM)</li>
+                <li>Programm languages: JS, TS (Basics)</li>
+                <li>Frameworks, builders and other instruments: React, Redux, Vite, AntD</li>
+                <li>VCS: Git (GitHub, GitLab, BitBucket)</li>
+                <li>Soft: Confluence, Jira, RedMine, WebStorm, VS Code</li>
+                <li>Other: Adobe Illustrator, Photoshop, After Effects, Figma, UI/UX design</li>
+            </ul>
+        </section>
+        <section id="code">
+            <h2>Code</h2>
+            <p class="code__description">Function for calculating factorial</p>
+            <pre class="code__function"><code>function factorial(n) {
+    if (n &lt; 0)
+        return "Factorial is not defined for negative numbers";
+    if (n === 0 || n === 1)
+        return 1;
+    let result = 1;
+    for (let i = 2; i &lt;= n; i++) {
+        result *= i;
+    }
+    return result;
+}
+
+const number = 5;
+console.log(factorial(number));</code></pre>
+        </section>
+        <section id="experience">
+            <h2>Experience</h2>
+
+            <h3>CFT SHIFT Lab, 2024-present</h3>
+            <p><b>Project:</b> System for creating and posting static content (banners and stories) for mobile applications of partner banks.</p>
+            <p><b>Technology stack:</b> JS, React, Vite, Sass</p>
+            <p><b>Main tasks:</b></p>
+            <ul>
+                <li>Updating the UI/UX design of the web application</li>
+                <li>Developing new pages and updating existing ones according to the new layout</li>
+                <li>Replacing the build tool (CRA → Vite)</li>
+                <li>Transferring the project from JS to TS</li>
+                <li>Refactoring</li>
+            </ul>
+            <p><b>Results:</b></p>
+            <ul>
+                <li>The project has been completely transferred to Vite</li>
+                <li>Most of the code base has been refactored</li>
+                <li>In the process, the interface is being developed according to the layout and the project is being transferred from JS to TS</li>
+            </ul>
+
+            <h3>Tomsk Polytechnic University, 2023-2024</h3>
+            <p><b>Project:</b> Corporate electronic document management system.</p>
+            <p><b>Technology stack:</b> TS, React, Redux, Vite, AntD</p>
+            <p><b>Main tasks:</b></p>
+            <ul>
+                <li>Development of UI/UX design for a web application</li>
+                <li>Selecting a technology stack</li>
+                <li>Developing an interface with multi-window support</li>
+                <li>Developing a proxy service</li>
+                <li>Implementing application deployment using the Jenkins tool</li>
+            </ul>
+            <p><b>Results:</b></p>
+            <ul>
+                <li>Developed a design for the main windows to implement the basic functionality of interacting with documents</li>
+                <li>Selected a stack for implementation, created an interface template with multi-window support, similar to Windows, and several main windows according to the layout.</li>
+                <li>Set up a CI/CD process using Jenkins</li>
+            </ul>
+
+            <h3>Educational projects</h3>
+            <ul>
+                <li><a href="https://github.com/BiraEusova/cinema-shift-2024"></a>Online cinema</li>
+                <li><a href="https://github.com/BiraEusova/shift-lab"></a>OTP Authorization</li>
+                <li><a href="https://github.com/BiraEusova/rsschool-cv"></a>CV</li>
+            </ul>
+        </section>
+        <section id="education">
+            <h2>Education</h2>
+
+            <h3>Bachelor’s degree</h3>
+            <p>Higher IT school: Software engineering. Tomsk State University, 2019-2023</p>
+
+            <h3>Master’s degree</h3>
+            <p>Faculty of Philosophy: UX/UI design. Tomsk State University, 2023-2025</p>
+
+            <h3>Additional courses</h3>
+            <p>Faculty of Philosophy: UX/UI design. Tomsk State University, 2023-2025</p>
+            <ul>
+                <li><a href="https://biraeusova.github.io/rsschool-cv/drive.google.com/file/d/1tizbRa0cTEO7Om4QH4u-MC9zQ0Gnq62K/view?usp=sharing">
+                    Course in Frontend. CFT SHIFT Intensive, 2024</a></li>
+                <li><p>
+                    Mentor in IT: how to give feedback, move and resolve conflicts. Yandex Practicum, 2024</p></li>
+                <li><a href="https://stepik.org/cert/2689785">
+                    Project Management. From Theory to Practice. Stepik, 2024</a></li>
+                <li><a href="https://stepik.org/cert/2330779">
+                    The Art of Soft Skills: Flexible Skills for Life and Study. Stepik, 2024</a></li>
+                <li><p>
+                    Professional retraining in the program “Graphic design”. Tomsk State University, 2022-2023</p></li>
+                <li><p>
+                    JavaScript/Front-end Pre-School. Rolling Stones School, in progress</p></li>
+            </ul>
+
+            <h3>Languages</h3>
+            <p><b>Russian:</b> Native speaker</p>
+            <p><b>English:</b> Pre-Intermediate / Intermediate</p>
+        </section>
+    </main>
+    <footer>
+        <ul class="footer">
+            <li class="footer__github">
+                <img src="github_icon.svg" alt="">
+                <a href="https://github.com/BiraEusova">@BiraEusova</a>
+            </li>
+            <li>2025</li>
+            <li>
+                <a href="https://rs.school/courses/javascript-ru">
+                    <img src="rs-school-logo.svg" alt="">
+                </a>
+            </li>
+        </ul>
+    </footer>
+</div>
+</body>
+</html>
