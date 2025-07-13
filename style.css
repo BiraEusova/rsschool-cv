@@ -37,11 +37,11 @@ b {
 }
 
 .sidebar {
-    padding: 64px 88px;
+    padding: 48px 48px;
     display: flex;
     flex-direction: column;
-    gap: 48px;
-    width: 565px;
+    gap: 32px;
+    width: 400px;
     background-color: #3E3B38;
     color: white;
     height: 100%;
@@ -53,10 +53,6 @@ b {
     width: 100%;
     aspect-ratio: 1/1;
     object-fit: cover;
-}
-
-.person-description__name {
-    white-space: nowrap;
 }
 
 .person-description__profession {
@@ -92,7 +88,7 @@ b {
 }
 
 .main-container {
-    margin-left: 565px;
+    margin-left: 400px;
     flex: 1;
     background-color: white;
     color: black;
@@ -120,7 +116,7 @@ header nav {
     height: 100%;
     align-items: center;
     justify-content: space-between;
-    padding: 0 88px;
+    padding: 0 48px;
     list-style-type: none;
 }
 
@@ -134,7 +130,7 @@ header nav {
 }
 
 main {
-    padding: 48px 88px;
+    padding: 32px 64px;
     display: flex;
     flex-direction: column;
     gap: 48px;
